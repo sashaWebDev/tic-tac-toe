@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <h2><i class="ion-plane"></i>Хрестики <span class="title-color">Нулики</span></h2>
+    </header>
+    <div class="cover">
+     
+      <h1>Заповни поле, козаче!</h1>
+      <form  class="flex-form">
+        <label for="from">
+          <i class="ion-location"></i>
+        </label>
+        <input type="text" maxlength="8" class="user-name" placeholder="Вкажіть ваше і'мя">
+        <input type="submit" value="Грати" class="btn-play">
+      </form>
+      <div id="madeby">
+        <span>
+          GAME by <a href="https://unsplash.com/@benblenner" target="_blank">Sasha Ropiy</a>
+        </span>
+      </div>
+    </div> 
+  
+    <!-- game block -->
+    <div class="game-container">
+      
+      <div id="game">
+    
+      </div>
+      <div class="wrap-reset">
+        <button id="reset">New game</button>
+      </div>
+      
+      <span id="result"></span>
+      <span class="title"><span>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
